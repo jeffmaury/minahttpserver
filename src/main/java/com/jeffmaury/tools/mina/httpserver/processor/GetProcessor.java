@@ -69,7 +69,7 @@ public class GetProcessor extends BaseProcessor {
         buffer.putString(str, Charset.forName(UTF_8).newEncoder());
         buffer.rewind();
         headers.put(CONTENT_LENGTH_HEADER_NAME, Integer.toString(str.length()));
-        headers.put(CONTENT_TYPE_HEADER_NAME, "text/plain; charset=" + UTF_8);
+        headers.put(CONTENT_TYPE_HEADER_NAME, "text/html; charset=" + UTF_8);
         message = buffer;
       }
     } else {
