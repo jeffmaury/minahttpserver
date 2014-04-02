@@ -3,7 +3,7 @@
 
   <groupId>com.jeffmaury.tools</groupId>
   <artifactId>minahttpserver</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <packaging>jar</packaging>
 
   <name>minahttpserver</name>
@@ -59,7 +59,7 @@
   	<url>http://github.com/jeffmaury/minahttpserver</url>
   	<connection>scm:git:git://github.com/jeffmaury/minahttpserver.git</connection>
   	<developerConnection>scm:git:ssh://git@github.com/jeffmaury/minahttpserver.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>minahttpserver-0.0.1</tag>
   </scm>
   <build>
     <plugins>
